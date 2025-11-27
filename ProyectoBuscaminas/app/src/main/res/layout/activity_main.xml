@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@android:color/transparent" />
+
+    <!-- Contenedor de entrada -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:id="@+id/textoInputMinas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/input_minas_textview"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputMinas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:hint="@string/input_minas_editText"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/checkboxMina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_text"
+            android:checked="false" />
+
+    </LinearLayout>
+
+    <!-- Estado del juego -->
+    <TextView
+        android:id="@+id/numMinasTotales"
+        android:text="@string/placeholder_total_minas"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/numMinasEncontradas"
+        android:text="@string/placeholder_minas_encontradas"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/numLimiteFallos"
+        android:text="@string/placeholder_limite_fallos"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Botón de reinicio -->
+    <Button
+        android:id="@+id/btnReset"
+        android:text="@string/reset_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="12dp" />
+
+    <!-- Contenedor de botones del juego -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp">
+
+        <GridLayout
+            android:id="@+id/layoutBotones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:orientation="horizontal" />
+    </ScrollView>
+</LinearLayout>

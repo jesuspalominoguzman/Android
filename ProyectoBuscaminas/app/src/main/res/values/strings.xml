@@ -1,0 +1,27 @@
+<resources>
+    <!-- Entrada de número de botones -->
+    <string name="input_minas_textview">Número de botones:</string>
+    <string name="input_minas_editText">Entre 4 y 30</string>
+
+    <!-- Estado del juego -->
+    <string name="placeholder_total_minas">Minas totales: </string>
+    <string name="placeholder_minas_encontradas">Minas encontradas: </string>
+    <string name="placeholder_limite_fallos">Límite de fallos: </string>
+
+    <!-- Botón de reinicio -->
+    <string name="reset_btn">Reiniciar juego</string>
+
+    <!-- Mensajes de estado -->
+    <string name="mensaje_victoria">¡Has encontrado todas las minas!</string>
+    <string name="mensaje_derrota">Has superado el límite de fallos.</string>
+    <string name="app_name">Buscaminas</string>
+
+    <string name="toast_rango_botones">El número debe estar entre 4 y 30</string>
+    <string name="texto_fallos_actuales">Fallos: %1$d / %2$d</string>
+    <string name="icono_mina">💣</string>
+    <string name="icono_fallo">❌</string>
+    <string name="checkbox_text">Ayuda</string>
+    <string name="checkbox_activado">Checkbox activado</string>
+    <string name="checkbox_desactivado">Checkbox desactivado</string>
+
+</resources>
