@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Asignación de coches</string>
+    <string name="titulo_listview">SISTEMA DE ASIGNACIÓN DE COCHES</string>
+    <string name="titulo_agregar_coche">Añadir Nuevo Coche:</string>
+    <string name="hint_marca">Marca</string>
+    <string name="hint_color">Color</string>
+    <string name="btn_agregar_coche">AÑADIR COCHE</string>
+    <string name="toast_coche_agregado">Coche añadido correctamente</string>
+    <string name="toast_campos_vacios">Por favor, completa todos los campos</string>
+    <string name="coches_asignados">Coches asignados:</string>
+</resources>
